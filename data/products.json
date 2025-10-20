@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Gold Watch",
+    "description": "Elegant timepiece with premium leather strap.",
+    "price": 120,
+    "image": "assets/images/gold-watch.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Designer Handbag",
+    "description": "Luxury leather handbag with golden accents.",
+    "price": 250,
+    "image": "assets/images/designer-bag.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Silk Scarf",
+    "description": "Pure silk scarf with elegant pattern.",
+    "price": 45,
+    "image": "assets/images/silk-scarf.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Men's Formal Shoes",
+    "description": "Handcrafted Italian leather shoes.",
+    "price": 180,
+    "image": "assets/images/formal-shoes.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Women's Heels",
+    "description": "Elegant heels for special occasions.",
+    "price": 150,
+    "image": "assets/images/womens-heels.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Luxury Sunglasses",
+    "description": "Stylish UV-protected designer sunglasses.",
+    "price": 95,
+    "image": "assets/images/sunglasses.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Diamond Earrings",
+    "description": "Shimmering diamond earrings in gold setting.",
+    "price": 310,
+    "image": "assets/images/earrings.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Men's Perfume",
+    "description": "Bold and captivating fragrance for men.",
+    "price": 70,
+    "image": "assets/images/mens-perfume.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Women's Perfume",
+    "description": "Floral and graceful luxury scent.",
+    "price": 85,
+    "image": "assets/images/womens-perfume.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Casual T-Shirt",
+    "description": "Soft cotton T-shirt for everyday wear.",
+    "price": 35,
+    "image": "assets/images/tshirt.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Leather Wallet",
+    "description": "Premium leather wallet with multiple compartments.",
+    "price": 60,
+    "image": "assets/images/wallet.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Gold Bracelet",
+    "description": "Luxury gold-plated bracelet for special occasions.",
+    "price": 210,
+    "image": "assets/images/bracelet.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Silk Dress",
+    "description": "Beautiful silk evening dress with elegant cut.",
+    "price": 340,
+    "image": "assets/images/silk-dress.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Men's Suit",
+    "description": "Tailored classic suit for formal occasions.",
+    "price": 400,
+    "image": "assets/images/mens-suit.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Luxury Belt",
+    "description": "Genuine leather belt with gold buckle.",
+    "price": 80,
+    "image": "assets/images/belt.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Women's Coat",
+    "description": "Warm and stylish wool coat for winter.",
+    "price": 260,
+    "image": "assets/images/coat.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Silver Necklace",
+    "description": "Delicate sterling silver necklace with pendant.",
+    "price": 130,
+    "image": "assets/images/necklace.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Men's Sneakers",
+    "description": "Comfortable and stylish everyday sneakers.",
+    "price": 110,
+    "image": "assets/images/sneakers.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Women's Bag",
+    "description": "Trendy handbag with modern golden chain.",
+    "price": 190,
+    "image": "assets/images/womens-bag.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Luxury Hoodie",
+    "description": "Soft and cozy designer hoodie for casual wear.",
+    "price": 95,
+    "image": "assets/images/hoodie.jpg"
+  }
+]

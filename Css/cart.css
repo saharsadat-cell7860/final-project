@@ -1,0 +1,81 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);
+    color: #111827;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar hover */
+.navbar-nav .nav-link {
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #F59E0B;
+}
+
+.btn-gold {
+    background-color: #F59E0B;
+    color: #111827;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.btn-gold:hover {
+    background-color: #e0a00a;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.cart-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.table-bordered th, .table-bordered td {
+    vertical-align: middle;
+}
+
+/* Suggested cards */
+.hover-card {
+    border-radius: 12px;
+    overflow: visible; 
+    background: linear-gradient(145deg, #fff, #f7f3ef);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.hover-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 30px rgba(245,158,11,0.4);
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-weight: 600;
+}
+.card-text {
+    color: #6B7280;
+}
+#cart-items {
+    background: linear-gradient(145deg, #fff, #f7f3ef);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    padding: 15px;
+    overflow: hidden;
+}
+
+footer a>i:hover {
+    color: #F59E0B;
+}
+
+#cart-items, #empty-cart {
+    margin-bottom: 40px;
+}
+

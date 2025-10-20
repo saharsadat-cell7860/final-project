@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | LuxeStyle</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);
+      color: #222;
+    }
+
+    /* Navbar Hover */
+    .navbar-nav .nav-link {
+        margin-left: 1rem;
+        transition: color 0.3s;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #F59E0B;
+    }
+
+    /* Hero */
+    .about-hero {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+                  url('assets/images/about.PNG') center/cover no-repeat;
+      height: 65vh;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    }
+
+    /* Our Story */
+    .our-story {
+      background: linear-gradient(145deg, #fff, #f5f2ed);
+      border-radius: 12px;
+      padding: 50px 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .our-story:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Counters */
+    .counter-box {
+      background: linear-gradient(145deg, #fff, #f7f3ef);
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .counter-box:hover {
+      transform: translateY(-5px);
+    }
+    .counter-number {
+      color: #F59E0B;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    /* Team */
+    .team-member {
+      transition: all 0.3s ease;
+      border-radius: 10px;
+      overflow: hidden;
+      background: linear-gradient(to bottom right, #fff, #f7f5f3);
+      box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    }
+    .team-member:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 20px rgba(245, 158, 11, 0.5);
+    }
+
+    /* Footer Icons Hover */
+    footer a>i:hover {
+        color: #F59E0B;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html" style="color: #F59E0B;">LuxeStyle</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          
+           <!-- Login / Logout -->
+          <li class="nav-item" id="nav-login">
+            <a class="nav-link" href="login.html"><i class="fa-solid fa-user"></i> Login</a>
+          </li>
+          <li class="nav-item d-none" id="nav-logout">
+            <a class="nav-link" href="#" id="logout-link"><i class="fa-solid fa-right-from-bracket"></i> Log Out</a>
+          </li>
+
+          <a href="cart.html" class="btn btn-outline-warning position-relative ms-3">
+                <i class="fa fa-shopping-cart"></i>
+                <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+            </a>
+          <li class="nav-item"><a class="nav-link" href="checkout.html"><i class="fa-solid fa-credit-card"></i> Checkout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <h1 class="fw-bold display-5">About LuxeStyle</h1>
+      <p class="lead mt-3">Where Elegance Meets Innovation in Fashion</p>
+    </div>
+  </section>
+
+  <!-- Our Story -->
+  <section class="py-5">
+    <div class="container text-center">
+      <div class="our-story mx-auto w-75">
+        <h2 class="fw-bold mb-4 text-dark">Our Story</h2>
+        <p class="text-muted">
+          Founded in 2020, <strong>LuxeStyle</strong> has become a global name in luxury fashion.
+          We craft each piece with passion, sophistication, and timeless appeal.  
+          Our collections blend modern design with heritage, offering you not just products — but experiences.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Counters -->
+  <section class="py-5">
+    <div class="container text-center">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="counter-box p-4">
+            <div class="counter-number" data-target="10000">0</div>
+            <p class="text-muted">Happy Customers</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="counter-box p-4">
+            <div class="counter-number" data-target="150">0</div>
+            <p class="text-muted">Premium Designs</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="counter-box p-4">
+            <div class="counter-number" data-target="5">0</div>
+            <p class="text-muted">Years of Excellence</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Meet Our Team</h2>
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num1.JPEG" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Sahar Sadat</h5>
+            <p class="text-muted mb-2">Founder & Designer</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num4.JPEG" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Ali Rateb</h5>
+            <p class="text-muted mb-2">Creative Director</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num3.JPEG" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Mustafa Ramani</h5>
+            <p class="text-muted mb-2">Marketing Lead</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num2.JPEG" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Lina Alakozy</h5>
+            <p class="text-muted mb-2">Product Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; <span id="year">2025</span> LuxeStyle. All rights reserved. /Designed by Sahar Sadat/</p>
+            <div class="mt-2">
+                <a href="#" class="text-light mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-light mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-light mx-2"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/about.js"></script>
+  <script src="js/log.js"></script>
+</body>
+</html>

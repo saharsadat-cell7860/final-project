@@ -1,0 +1,90 @@
+
+body.login-page {
+    font-family: 'Poppins', sans-serif;
+    color: #111827;
+    background: linear-gradient(180deg, #fdfcfb 0%, #efe6cc 100%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ====== Navbar Hover ====== */
+.navbar-nav .nav-link {
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #F59E0B;
+}
+
+#login-form {
+    background-color: #ffffff;
+    padding: 3rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#login-form:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(245,158,11,0.15);
+}
+
+#login-form h2 {
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 2rem;
+}
+
+.form-floating .form-control {
+    border-radius: 8px;
+    padding: 1.25rem 1rem;
+    border: 1px solid #d1d5db;
+    background-color: #fefefe;
+    transition: all 0.3s ease;
+}
+.form-floating .form-control:focus {
+    border-color: #F59E0B;
+    box-shadow: 0 0 8px rgba(245,158,11,0.3);
+}
+
+/* Labels */
+.form-floating > label {
+    color: #6b7280;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.form-floating .form-control:focus ~ label {
+    color: #F59E0B;
+}
+
+#login-form .btn-gold {
+    background-color: #F59E0B;  
+    color: #111827;             
+    font-weight: 700;
+    border: none;
+    border-radius: 999px;        
+    padding: 0.55rem 1.2rem;
+    transition: all 0.25s ease;
+    box-shadow: none;
+}
+#login-form .btn-gold:hover {
+    color: #fff;
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 8px 22px rgba(245,158,11,0.22);
+}
+#login-form .btn-gold:active {
+    color: #fff;
+    background-color: #e0a00a;
+    transform: scale(1);
+}
+
+/* Footer */
+footer a>i:hover {
+    color: #F59E0B;
+    transition: color 0.3s;
+}
+
+@media (max-width: 768px) {
+    #login-form {
+        padding: 2rem 1.5rem;
+    }
+}

@@ -1,0 +1,104 @@
+/* Navbar hover */
+.navbar-nav .nav-link {
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #F59E0B;
+}
+
+body.checkout-page {
+    background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);
+    font-family: 'Poppins', sans-serif;
+    color: #111827;
+}
+
+#checkout-form {
+    background-color: #fff;
+    padding: 3rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.form-floating-custom {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.form-floating-custom input,
+.form-floating-custom select {
+    width: 100%;
+    padding: 1rem 0.75rem 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    background: linear-gradient(120deg, #fff, #fdfcfb);
+    transition: all 0.3s ease;
+    outline: none;
+}
+.form-floating-custom label {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 0.95rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+.form-floating-custom input:focus,
+.form-floating-custom select:focus {
+    border-color: #F59E0B;
+    box-shadow: 0 0 10px rgba(245,158,11,0.3);
+}
+.form-floating-custom input:focus + label,
+.form-floating-custom select:focus + label,
+.form-floating-custom input:not(:placeholder-shown) + label {
+    top: -0.5rem;
+    left: 0.7rem;
+    font-size: 0.8rem;
+    color: #F59E0B;
+    background-color: #fff;
+    padding: 0 0.25rem;
+}
+
+#checkout-form .btn-gold {
+    background-color: #F59E0B;
+    color: #111827;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+#checkout-form .btn-gold:hover {
+    background-color: #e0a00a;
+    color: #fff;
+    transform: scale(1.07);
+}
+
+#checkout-form h5 {
+    border-bottom: 2px solid #F59E0B;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* Footer hover icons */
+footer a>i {
+    transition: color 0.3s;
+}
+footer a>i:hover {
+    color: #F59E0B;
+}
+
+@media (max-width: 768px) {
+    #checkout-form {
+        padding: 2rem 1.5rem;
+    }
+    #checkout-form .btn-gold {
+        width: 100%;
+    }
+}

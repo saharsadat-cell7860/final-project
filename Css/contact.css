@@ -1,0 +1,134 @@
+
+body.contact-page {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #fdfcfb 0%, #efe6cc 100%);
+    color: #111827;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== Navbar Hover ====== */
+.navbar-nav .nav-link {
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav {
+    color: #F59E0B;
+}
+.nav-link.active{
+    color: white;
+}
+
+/* ====== Hero Section ====== */
+.contact-hero {
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../assets/images/contact.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.contact-section .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+.contact-section .card:hover {
+    transform: translateY(-6px);
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.12),
+        0 6px 20px rgba(245,158,11,0.18);
+}
+
+.form-floating-custom {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.form-floating-custom input,
+.form-floating-custom textarea {
+    width: 100%;
+    padding: 1rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fdfdfd;
+    font-size: 0.95rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.form-floating-custom input:focus,
+.form-floating-custom textarea:focus {
+    outline: none;
+    border-color: #F59E0B;
+    box-shadow: 0 0 6px rgba(245,158,11,0.3);
+}
+.form-floating-custom label {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    color: #6b7280;
+    font-size: 0.95rem;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.form-floating-custom input:focus + label,
+.form-floating-custom input:not(:placeholder-shown) + label,
+.form-floating-custom textarea:focus + label,
+.form-floating-custom textarea:not(:placeholder-shown) + label {
+    top: -0.6rem;
+    left: 0.65rem;
+    font-size: 0.8rem;
+    color: #F59E0B;
+    background-color: #fff;
+    padding: 0 0.25rem;
+}
+
+/* ====== Send Message Button ====== */
+ .btn-gold {
+    background-color: #F59E0B;
+    color: #111827;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-radius: 30px;
+}
+.btn-gold:hover {
+    background-color: #e0a00a;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.contact-section p {
+    font-size: 0.95rem;
+    color: #6b7280;
+}
+.contact-section p i {
+    color: #F59E0B;
+    margin-right: 0.5rem;
+}
+
+.contact-map iframe {
+    border: 0;
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+.contact-map iframe:hover {
+    transform: scale(1.02);
+}
+
+footer a>i:hover {
+    color: #F59E0B;
+    transition: color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .contact-hero { height: 35vh; }
+    .btn-gold { width: 100%; text-align: center; }
+}

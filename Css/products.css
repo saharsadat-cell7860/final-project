@@ -1,0 +1,107 @@
+
+body.products-page {
+  font-family: 'Poppins', sans-serif;
+  color: #111827;
+  background: linear-gradient(180deg, #fdfcfb 0%, #efe6cc 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+/* Navbar Hover */
+    .navbar-nav .nav-link {
+        margin-left: 1rem;
+        transition: color 0.3s;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #F59E0B;
+    }
+
+.product-card .card {
+  position: relative;
+  background-color: #ffffff; 
+  border: none; 
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.product-card .card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.12),
+    0 6px 20px rgba(245,158,11,0.18);
+}
+
+.product-card .card-img-top {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+.product-card .card:hover .card-img-top {
+  transform: scale(1.04);
+}
+
+.product-card .card-title {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.3rem;
+}
+.product-card .card-price,
+.product-card .card-text {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+
+.btn-gold,
+.btn-add-cart,
+.filter-btn {
+  background-color: #F59E0B;   
+  color: #111827;               
+  font-weight: 700;             
+  border: none;                
+  border-radius: 999px;         
+  padding: 0.45rem 1rem;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.btn-gold:hover,
+.btn-add-cart:hover,
+.filter-btn:hover,
+.filter-btn.active {
+  color: #ffffff;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 22px rgba(245,158,11,0.22);
+  background-color: #F59E0B; 
+}
+
+.btn-gold:focus,
+.btn-add-cart:focus,
+.filter-btn:focus {
+  outline: 3px solid rgba(245,158,11,0.12);
+  outline-offset: 3px;
+  box-shadow: 0 8px 22px rgba(245,158,11,0.18);
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .product-card .card-img-top { height: 180px; }
+  .btn-gold, .btn-add-cart, .filter-btn {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.95rem;
+  }
+}
