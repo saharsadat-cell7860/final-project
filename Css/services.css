@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #111827;
+    background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);
+}
+
+/* Navbar hover */
+.navbar-nav .nav-link {
+    margin-left: 0.5rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #F59E0B;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.hero-section .hero-text {
+    position: relative;
+    z-index: 2;
+}
+.hero-section h1, .hero-section p {
+    color: #fff;
+}
+
+/* Services Cards */
+.service-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(245,158,11,0.4);
+}
+.service-card i {
+    transition: color 0.3s;
+}
+.service-card h5 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.service-card p {
+    color: #6b7280;
+}
+
+/* Footer hover icons */
+footer a>i:hover {
+    color: #F59E0B;
+}

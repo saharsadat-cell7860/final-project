@@ -1,0 +1,57 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);
+    color: #111827;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar hover */
+.navbar-nav .nav-link {
+    margin-left: 0.5rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #F59E0B;
+}
+
+/* Buttons */
+.btn-gold {
+    background-color: #F59E0B;
+    color: #111827;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.btn-gold:hover {
+    background-color: #e0a00a;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Hero section */
+.pricing-hero h1 {
+    font-size: 3rem;
+}
+.pricing-hero p {
+    font-size: 1.25rem;
+}
+
+/* Pricing cards */
+.pricing-card {
+    border-radius: 12px;
+    background: linear-gradient(145deg, #fff, #f7f3ef);
+    transition: all 0.3s ease;
+}
+.pricing-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 30px rgba(245,158,11,0.4);
+}
+.pricing-card ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer hover icons */
+footer a>i:hover {
+    color: #F59E0B;
+}

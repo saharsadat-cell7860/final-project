@@ -1,0 +1,74 @@
+
+:root{
+  --gold: #F59E0B;
+  --gold-dark: #e0a00a;
+  --muted: #6b7280;
+  --bg-1: #fdfcfb;
+  --bg-2: #e2d1c3;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, var(--bg-1), var(--bg-2));
+  color: #111827;
+  -webkit-font-smoothing:antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+ /* Navbar Hover */
+    .navbar-nav .nav-link {
+        margin-left: 0.5rem;
+        transition: color 0.3s;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #F59E0B;
+    }
+
+/* buttons */
+.btn-gold {
+  background-color: var(--gold);
+  color: #111827;
+  font-weight:700;
+  border: none;
+  border-radius: 999px;
+  padding: .45rem .95rem;
+  transition: transform .18s, color .18s, box-shadow .18s;
+}
+.btn-gold:hover {
+  background-color: #e0a00a;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* single blog content */
+.single-hero {
+  height: 38vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/images/slider4.JPEG') center/cover no-repeat;
+}
+.single-container { margin-top:2.5rem; margin-bottom:3rem; }
+.single-article { background:#fff; border-radius:12px; padding:2rem; box-shadow: 0 8px 30px rgba(0,0,0,0.08); }
+
+/* author box */
+.author-box { display:flex; gap:1rem; align-items:center; margin-bottom:1rem; }
+.author-box img { width:56px; height:56px; border-radius:10px; object-fit:cover; box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+
+/* comments */
+.comments { margin-top:2rem; }
+.comment { background: linear-gradient(145deg,#fff,#fbfaf9); border-radius:10px; padding:1rem; margin-bottom:.8rem; box-shadow: 0 6px 18px rgba(0,0,0,0.05); }
+.comment .meta { font-size:.9rem; color:var(--muted); margin-bottom:.4rem; }
+
+/* form styles */
+.form-control:focus { box-shadow: 0 0 8px rgba(245,158,11,0.2); border-color: var(--gold); }
+textarea.form-control { min-height:120px; resize:vertical; }
+
+/* footer hover */
+footer a>i:hover { color: var(--gold); transition: color .25s; }
+
+@media (max-width:992px){
+  .blog-hero h1 { font-size:2.2rem; }
+  .blog-card .card-img { height: 180px; }
+}

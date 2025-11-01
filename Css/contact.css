@@ -9,7 +9,7 @@ body.contact-page {
 
 /* ====== Navbar Hover ====== */
 .navbar-nav .nav-link {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     transition: color 0.3s;
 }
 .navbar-nav .nav-link:hover,

@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);
+    color: #222;
+}
+
+/* Navbar Hover */
+.navbar-nav .nav-link {
+    margin-left: 0.5rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav {
+    color: #F59E0B;
+}
+
+/* Hero Section */
+.team-hero h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+}
+.team-hero p {
+    font-size: 1.2rem;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.5);
+}
+
+/* Team Members */
+.team-member {
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #fff, #f7f5f3);
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+.team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 25px rgba(245, 158, 11, 0.5); 
+}
+.team-member img {
+    border-radius: 12px;
+    object-fit: cover;
+    height: 250px;
+}
+.team-member h5 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.team-member p {
+    font-size: 0.9rem;
+}
+.team-member div a {
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.team-member div a:hover {
+    color: #F59E0B;
+}
+
+/* Footer Icons Hover */
+footer a>i:hover {
+    color: #F59E0B;
+}
+
+
+@media (max-width: 768px) {
+    .team-member img {
+        height: 200px;
+    }
+}

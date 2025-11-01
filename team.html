@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team | LuxeStyle</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Css/team.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html" style="color: #F59E0B;">LuxeStyle</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link  active" href="team.html">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          
+           <!-- Login / Logout -->
+          <li class="nav-item" id="nav-login">
+            <a class="nav-link" href="login.html"><i class="fa-solid fa-user"></i> Login</a>
+          </li>
+          <li class="nav-item d-none" id="nav-logout">
+            <a class="nav-link" href="#" id="logout-link"><i class="fa-solid fa-right-from-bracket"></i> Log Out</a>
+          </li>
+
+          <a href="cart.html" class="btn btn-outline-warning position-relative ms-3">
+                <i class="fa fa-shopping-cart"></i>
+                <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+            </a>
+          <li class="nav-item"><a class="nav-link" href="checkout.html"><i class="fa-solid fa-credit-card"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="team-hero d-flex align-items-center justify-content-center text-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/images/about.PNG') center/cover no-repeat; height: 60vh; color: #fff;">
+    <div class="container">
+      <h1 class="fw-bold display-5">Meet Our Team</h1>
+      <p class="lead mt-3">The Creative Minds Behind LuxeStyle</p>
+    </div>
+  </section>
+
+  <!-- Team Members -->
+  <section class="py-5">
+    <div class="container text-center">
+      <div class="row g-4">
+
+        <!-- Member 1 -->  
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num1.JPEG" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Sahar Sadat</h5>
+            <p class="text-muted mb-2">Founder & Designer</p>
+            <p class="text-muted">Passionate about creating luxurious and timeless fashion.</p>
+            <div>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num2.JPEG" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Lina Alakozy</h5>
+            <p class="text-muted mb-2">Product Manager</p>
+            <p class="text-muted">Ensures all products meet the highest quality standards.</p>
+            <div>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 3 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num3.JPEG" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Mustafa Ramani</h5>
+            <p class="text-muted mb-2">Marketing Lead</p>
+            <p class="text-muted">Develops innovative marketing strategies for global reach.</p>
+            <div>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 4 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num4.JPEG" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Ali Rateb</h5>
+            <p class="text-muted mb-2">Creative Director</p>
+            <p class="text-muted">Oversees all creative projects and design aesthetics.</p>
+            <div>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 5 -->  
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num5.png" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Mina Ahmadi</h5>
+            <p class="text-muted mb-2">Inventory Controller</p>
+            <p class="text-muted">Passionate about creating luxurious and timeless fashion.</p>
+            <div>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 6 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num6.jpg" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Omar Anvari</h5>
+            <p class="text-muted mb-2">E-commerce Marketing </p>
+            <p class="text-muted">Ensures all products meet the highest quality standards.</p>
+            <div>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 7 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num7.jpg" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Hasib Sarem</h5>
+            <p class="text-muted mb-2">Order & Logistics Coordinator</p>
+            <p class="text-muted">Develops innovative marketing strategies for global reach.</p>
+            <div>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member 8 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-member p-3">
+            <img src="assets/images/num8.jpg" class="w-100 mb-3" alt="Team">
+            <h5 class="fw-bold">Tamim Tenha</h5>
+            <p class="text-muted mb-2">Customer Support Lead</p>
+            <p class="text-muted">Oversees all creative projects and design aesthetics.</p>
+            <div>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark mx-1"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+      <p>&copy; <span id="year">2025</span> LuxeStyle. All rights reserved. /Designed by Sahar Sadat/</p>
+      <div class="mt-2">
+        <a href="#" class="text-light mx-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-light mx-2"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-light mx-2"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="Js/log.js"></script>
+</body>
+</html>

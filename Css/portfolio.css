@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);
+    color: #111827;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar hover */
+.navbar-nav .nav-link {
+    margin-left: 0.5rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #F59E0B;
+}
+
+/* Portfolio Cards */
+.hover-card {
+    border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #fff, #f7f3ef);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 30px rgba(245,158,11,0.5);
+    border: 1px solid #F59E0B;
+}
+
+.hover-card img {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.hover-card:hover img {
+    transform: scale(1.05);
+}
+
+.hover-card .card-title {
+    font-weight: 600;
+    color: #111827;
+}
+
+.hover-card .card-text {
+    color: #6B7280;
+}
+
+/* Modals */
+.modal-content {
+    border-radius: 12px;
+    padding: 20px;
+    background: linear-gradient(145deg, #fff, #f7f3ef);
+}
+
+.modal-header .modal-title {
+    font-weight: 700;
+    color: #111827;
+}
+
+.modal-body p {
+    color: #6B7280;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.card-body .btn-gold {
+    background-color: #F59E0B;
+    color: #111827;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card-body .btn-gold:hover {
+    background-color: #e0a00a;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.modal-body .btn-gold i {
+    margin-left: 5px;
+}
+
+/* Footer hover icons */
+footer a>i:hover {
+    color: #F59E0B;
+    transition: color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .hover-card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hover-card img {
+        height: 180px;
+    }
+}
